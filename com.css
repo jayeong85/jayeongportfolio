@@ -1,0 +1,195 @@
+@import url("[https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css](https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css)");
+
+@import url("https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_Rebecca.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+body {
+  font-family: pretendard, sans-serif;
+  color: #333333;
+}
+
+h1 {
+  font-size: 140px;
+  font-family: "Gloock", serif;
+}
+h2 {
+  font-size: 48px;
+  font-family: "Unna", serif;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+  line-height: 24px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.star {
+  width: 24px;
+  height: 24px;
+}
+
+:root {
+  --point: #2c68b3;
+}
+.container {
+  width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.section-title {
+  width: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fp-watermark {
+  display: none;
+}
+
+/*btn*/
+
+.btn-group {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #111111;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  border-radius: 50px;
+  padding: 18px 8px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  border: none;
+  background-color: var(--point);
+  color: #ffffff;
+}
+.btn1{
+    top: 0;
+    transition: 0.5s;
+}
+.btn2{
+    top: 0;
+    transition: 0.5s;
+}
+.btn3{
+    top: 0;
+    transition: 0.5s;
+}
+.btn1:hover{
+    top: -4px;
+}
+.btn2:hover{
+    top: -4px;
+}
+.btn3:hover{
+    top: -4px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/*header*/
+header {
+  position: fixed;
+  top: 0;
+  right: 20px;
+  height: 60px;
+  padding: 40px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  z-index: 100;
+  color: #333333;
+  font-size: 17px;
+  font-weight: 300;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  box-shadow: 0 0 5px #dfdede;
+}
+
+header .name {
+  bottom: 2px;
+  padding-right: 10px;
+}
+
+header .menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .menu li{
+  display: flex;
+  gap: 20px;
+  font-size: 17px;
+  font-weight: 300;
+}
+header .menu li:nth-child(3){
+ 
+    background-color: #06052a;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+header .menu li:nth-child(4){
+  background-color: #06052a;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+/*top-btn*/
+.top-btn{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 300;
+  width: 40px;
+  height: 40px;
+}
